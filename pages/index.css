@@ -173,8 +173,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-
 }
 
 .reservation_title {
@@ -186,7 +184,6 @@
   font-size: 44px;
   line-height: 52px;
   color: #000;
-
 }
 
 .reservation__form {
@@ -231,7 +228,6 @@
   font-size: 20x;
   line-height: 30px;
   color: #838383;
-
 }
 
 .form__button {
