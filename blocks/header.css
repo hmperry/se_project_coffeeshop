@@ -1,5 +1,5 @@
 .header {
-  background-color: #FFF;
+  background-color: #fff;
   background-image: url("../images/background_header.svg");
   background-repeat: repeat;
   background-position: center;
@@ -10,6 +10,7 @@
   padding: 30px 80px 40px;
   position: relative;
   margin-top: auto;
+  z-index: 1;
 }
 
 .header__title {
@@ -38,25 +39,30 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  }
-
-.header__image{
-  width: 646px;
-  height: 568px;
-  position:absolute;
-  top: 124px;
-  right: 5px;
 }
 
-.header__span-accent{
+.header__image {
+  width: 646px;
+  height: 568px;
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  z-index: -1;
+}
+
+.header__span-accent {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
-  font-size: 60px;
-  line-height: 72px;
-  color: #3F96F3;
+  color: #3f96f3;
 }
 
-.header__paragraph{
+.header__paragraph {
   margin: 0;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16x;
+  line-height: 20px;
+  color: #6f6f6f;
 }

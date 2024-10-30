@@ -1,7 +1,6 @@
 .card {
-margin: 0;
-width: 540px;
-gap: 100px;
+  margin: 0;
+  width: 540px;
 }
 
 .card__title {
@@ -13,7 +12,7 @@ gap: 100px;
   line-height: 30px;
 }
 
-.card__list{
+.card__list {
   padding: 0;
   list-style-type: none;
   display: flex;
@@ -27,11 +26,11 @@ gap: 100px;
 }
 
 .card__list-item {
-display: flex;
-gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .card__list-divider {
-flex-grow: 1;
-border-bottom: 1px solid #000;
+  flex-grow: 1;
+  border-bottom: 1px solid #000;
 }

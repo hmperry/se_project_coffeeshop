@@ -1,11 +1,12 @@
 .about {
-  background-color: #0A2850;
+  background-color: #0a2850;
   margin: 0;
   padding: 100px 80px 173px;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   position: relative;
-  z-index: -1;
+  z-index: 1;
+  overflow: hidden;
 }
 
 .about__title {
@@ -17,7 +18,6 @@
   line-height: 52px;
   color: #fff;
   max-width: 251px;
-  z-index: 1;
 }
 
 .about__content {
@@ -35,28 +35,34 @@
 }
 
 .about__paragraph {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .about__circle {
- position: absolute;
- width: 426px;
- height: 426px;
- background-color: #1878DC;
-z-index: 0;
- border-radius: 50%;
- top: -152px;
- left: -129px;
+  position: absolute;
+  width: 426px;
+  height: 426px;
+  background-color: #1878dc;
+  z-index: -1;
+  border-radius: 50%;
+  top: -152px;
+  left: -129px;
 }
 
 @keyframes pulsate {
-    0% {opacity: 0;}
-    50% {opacity: 0.6;}
-    100% {opacity: 0;
-          transform: scale(1.4);}
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.4);
+  }
 }
 
 .about__circle_animation_blurred {
-animation: pulsate 1.3s ease-in-out infinite;
- }
+  animation: pulsate 1.3s ease-in-out infinite;
+}
